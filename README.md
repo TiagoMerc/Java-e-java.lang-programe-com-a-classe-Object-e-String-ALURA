@@ -35,11 +35,35 @@ Instrutor:
 
 - a nomenclatura padrão é usar o nome do domínio na web ao contrário junto com o nome do projeto, por exemplo:
 
-br.com.caelum.geradornotas
-br.com.alura.gnarus
-br.gov.rj.notas
-de.adidas.lager
+**br.com.caelum.geradornotas**
+
+**br.com.alura.gnarus**
+
+**br.gov.rj.notas**
+
+**de.adidas.lager**
 
 Uma vez organizado as nossas classes podemos revisar o modificadores de visibilidades que dependem dos pacotes. 
 
 ![Organizando as classes com Pacotes](./imgs/prints/OrganizandoClassesComPacotes.png)
+
+### 02. Todos os modificadores de acesso
+
+**Nessa aula falamos novamente sobre visibilidade e aprendemos:**
+
+- existem 3 palavras chaves relacionado com a visibilidade: **private**, **protected**, **public**
+
+- existem 4 níveis de visibilidade (de menor para maior):
+ - private (visível apenas na classe)
+
+ - **<<package private>>** (visível na classe E em qualquer outro membro do mesmo pacote, podendo ser chamado de default)
+
+- **protected** (visível na classe E em qualquer outro membro do mesmo pacote E para qualquer filho)
+
+- **public** (visível em qualquer pacote)
+
+- os modificadores podem ser usados na definição da classe, atributo, construtor e método
+
+![ModificadoresDeAcesso](./imgs/prints/ModificadoresDeAcesso.png)
+
+### 03. Distribuição do seu código
