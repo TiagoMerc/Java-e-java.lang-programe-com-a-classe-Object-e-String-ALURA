@@ -100,3 +100,24 @@ Uma vez organizado as nossas classes podemos revisar o modificadores de visibili
 Na próxima aula vamos conhecer o pacote **java.lang**.
 
 ### 04. O pacote java.lang 
+
+**Nessa aula aprendemos e conhecemos:**
+
+- o package **java.lang** é o único pacote que não precisa ser importado
+
+- nele tem classes fundamentais que qualquer aplicação precisa, como a classe **String** e **System**
+
+- objetos da classe **String** são imutáveis e usamos uma sintaxe literal para criar (object literal)
+
+- qualquer método de alteração da classe **String** devolve uma nova **String** que representa a alteração
+
+- a classe **String** é uma **CharSequence**
+
+- se precisamos concatenar muitos **String** devemos usar a classe **StringBuilder**
+
+- vimos vários métodos da classe String como **trim**, **charAt**, **contains**, **isEmpty**, **length**, **indexOf**, **replace**
+
+Na próxima aula veremos outra classe fundamental: **java.lang.Object**
+
+
+![O pacote java.lang](./imgs/prints/JavaLang.png)
