@@ -121,3 +121,13 @@ Na próxima aula veremos outra classe fundamental: **java.lang.Object**
 
 
 ![O pacote java.lang](./imgs/prints/JavaLang.png)
+
+### 05. A classe Object
+
+Qualquer objeto pode ser referenciado pelo tipo **Object**, já que ela é a principal.
+
+Object é a forma mais genérica de referenciar um objeto.
+
+**toString**
+
+![toString](./imgs/prints/toString.png)
